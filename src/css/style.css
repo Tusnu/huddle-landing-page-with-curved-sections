@@ -1,0 +1,324 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 0 0 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(/images/bg-section-top-desktop-1.svg), url(/images/bg-section-bottom-desktop-1.svg), url(/images/bg-section-top-desktop-2.svg), url(/images/bg-section-bottom-desktop-2.svg), url(/images/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0rem 106.3rem, 0rem 147.5rem, 0rem 195.5rem, 0rem 233.5rem, 0rem 264.8rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 4rem 5rem 4rem;
+}
+
+button {
+    padding: 0.7rem;
+    border-radius: 4rem;
+    border-style: none;
+    cursor: pointer;
+}
+
+.botton-header {
+    width: 13%;
+    background-color: white;
+    border: solid 1px hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.botton-header:hover {
+    border-color: hsl(322, 100%, 86%);
+    color: hsl(322, 100%, 86%);
+    transition: 0.3s ease-in-out;
+}
+
+.button-body {
+    padding: 1.5rem;
+    align-self: center;
+    margin: 2rem;
+    font-size: 100%;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 25%;
+}
+
+.button-body:hover, .button-end:hover {
+    background-color: hsl(322, 100%, 76%);
+    transition: 0.3s ease-in-out;
+}
+
+.button-end {
+    width: 30%;
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(189, 100%, 97%);
+    border-radius: 0.5rem;
+}
+
+h1 {
+    font-size: 210%;
+    padding-bottom: 1rem;
+}
+
+.big-h1 {
+    font-size: 260%;
+}
+
+.number-h1 {
+    font-size: 400%;
+    padding-bottom: 0.5rem;
+}
+
+.p-normal {
+    align-self: center;
+    width: 40%;
+    line-height: 170%;
+}
+
+.p-white {
+    padding: 0.5rem;
+}
+
+.white {
+    width: 70%;
+}
+
+.p-div {
+    width: 100%;
+}
+
+.span-down-number {
+    color: hsl(0, 0%, 60%);
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 12rem;
+}
+
+.s-two {
+    padding: 0 4rem;
+}
+
+.s-reverse {
+    flex-direction: row-reverse;
+}
+
+.div-1 {
+    display: flex;
+    flex-direction: column;text-align: left;
+    height: 100%;
+    align-self: center;
+    padding-right: 3.5rem;
+}
+
+.div-reverse {
+    padding-right: 0;
+    padding-left: 3.5rem;
+}
+
+.div-footer {
+    text-align: left;
+    width: 35%;
+}
+
+.space {
+    margin-bottom: 15rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0 4rem;
+}
+
+.footer-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+
+.footer-all {
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(189, 100%, 97%);
+    padding-bottom: 4rem;
+}
+
+.bg-blue {
+    background-color: hsl(189, 100%, 97%);
+}
+
+.bg-1 {
+    width: 90%;
+    align-self: center;
+    padding: 4rem 0;
+}
+
+.illustration {
+    width: 50%;
+}
+
+.icon-up-number {
+    display: flex;
+}
+
+.logo-end {
+    filter: invert();
+}
+
+.icon {
+    margin-right: 0.5rem;
+}
+
+.social-icon {
+    filter: invert();    
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    filter: brightness(0%);
+    filter:saturate(0%);
+}
+
+@media (max-width: 768px) {
+    
+    body {
+        padding: 2rem 0;
+        background: none;
+        background-image: url(/images/bg-section-top-mobile-1.svg), url(/images/bg-section-bottom-mobile-1.svg), url(/images/bg-section-top-mobile-2.svg), url(/images/bg-section-bottom-mobile-2.svg), url(/images/bg-footer-top-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0 94.5rem, 0 136rem, 0 188rem, 0 227rem, 0 266rem;
+    }
+
+    header {
+        padding: 0 2rem 5rem 2rem;
+    }
+    
+    .logo {
+        width: 30%;
+        height: 50%;
+    }
+
+    .botton-header {
+        width: 40%;
+        padding: 0.3rem;
+    }
+
+    .big-h1 {
+        font-size: 200%;
+        padding: 0 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .p-normal {
+        width: 80%;
+        margin-bottom: 1.5rem;
+    }
+
+    .button-body {
+        width: 70%;
+        padding: 1rem;
+    }
+
+    .section-1 {
+        flex-direction: row-reverse;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .number-h1 {
+        font-size: 500%;
+        padding: 0;
+    }
+
+    .icon-up-number {
+        margin-top: 4rem;
+    }
+
+    .section-1 {
+        flex-direction: column-reverse;
+        padding: 0 2rem;
+    }
+
+    .numbers {
+        flex-direction: column-reverse;
+    }
+
+    .div-1 {
+        text-align: center;
+        padding: 0;
+    }
+
+    .p-div {
+        width: 100%;
+    }
+
+    .illustration {
+        width: 80%;
+        padding: 2rem 0;
+    }
+
+    .footer-in {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .div-footer {
+        width: 100%;
+    }
+
+    .inpu {
+        width: 100%;
+    }
+
+    .inpu-button {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .button-end {
+        margin-right: 1rem;
+        width: 50%;
+        padding: 0.8rem;
+        font-size: 110%;
+    }
+
+    .logo-end {
+        padding-top: 4rem;
+        width: 50%;
+    }
+
+    .social {
+        padding: 0rem 1rem;
+    }
+}
